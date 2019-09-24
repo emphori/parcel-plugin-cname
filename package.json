@@ -18,14 +18,20 @@
   ],
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "jest"
   },
   "eslintConfig": {
     "extends": "@emphori"
   },
+  "jest": {
+    "preset": "@emphori/jest-preset"
+  },
   "devDependencies": {
     "@emphori/eslint-config": "^0.1.1",
-    "eslint": "^6.1.0"
+    "@emphori/jest-preset": "0.0.3",
+    "eslint": "^6.1.0",
+    "jest": "^24.9.0"
   },
   "publishConfig": {
     "access": "public"
