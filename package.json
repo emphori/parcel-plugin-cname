@@ -1,0 +1,40 @@
+{
+  "name": "parcel-plugin-cname",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "files": [
+    "./lib/index.js"
+  ],
+  "keywords": [
+    "parcel",
+    "parcel-plugin",
+    "cname"
+  ],
+  "author": "Emphori (https://emphori.studio)",
+  "homepage": "https://github.com/Emphori/parcel-plugin-cname#readme",
+  "contributors": [
+    "Iain Reid <iainreid382@gmail.com> (https://chaff.land)"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "eslintConfig": {
+    "extends": "@emphori"
+  },
+  "devDependencies": {
+    "@emphori/eslint-config": "^0.1.1",
+    "eslint": "^6.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emphori/parcel-plugin-cname.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Emphori/parcel-plugin-cname/issues"
+  }
+}
