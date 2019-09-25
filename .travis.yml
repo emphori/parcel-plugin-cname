@@ -13,7 +13,8 @@ deploy:
       tags: true
 
   - provider: npm
-    edge: true
+    edge:
+      branch: master
     registry: npm.pkg.github.com
     skip_cleanup: true
     api_key: $GITHUB_TOKEN
