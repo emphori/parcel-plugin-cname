@@ -28,7 +28,7 @@
     "preset": "@emphori/jest-preset"
   },
   "devDependencies": {
-    "@emphori/eslint-config": "^0.1.1",
+    "@emphori/eslint-config": "^0.1.7",
     "@emphori/jest-preset": "0.0.3",
     "eslint": "^6.1.0",
     "jest": "^24.9.0"
